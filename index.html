@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary meal" data-toggle="modal" data-target="#exampleModal">
+        <div>
+        <img src="images/img1.jpeg" alt="">
+        <h3 class= "text-dark" >برجر</h3>
+        <p class= "text-dark">صلصة , طحينة , خس , جزر</p>
+        </div>
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">برجر</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="burger">
+                        <div class="container">
+                            <div class="row">
+                                <div class="img col-md-4 col-xs-12">
+                                    <img src="images/img1.jpeg" class="rounded-lg" alt="">
+                                </div>
+                                <div class="text col-md-8 col-xs-12">
+                                    <h1>برجر</h1>
+                                    <p>وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبة وصف بسيط عن الوجبةوصف بسيط عن الوجبةوصف بسيط عن الوجبة </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="all col-md-4 col-xs-12">
+                                    <h2>اضافات:</h2>
+                                    <div class="extra">
+                                        <div class="chesse">
+                                            <div class="add">
+                                                <input type="checkbox" id="chesse" onclick="add()">
+                                                <label for="chesse">جبن</label>
+                                            </div>
+                                            <span>2</span>
+                                        </div>
+                                        <div class="bread1">
+                                            <div class="add">
+                                                <input type="checkbox" id="bread1">
+                                                <label for="bread1">خبز عادي</label>
+                                            </div>
+                                            <span>0</span>
+                                        </div>
+                                        <div class="bread2">
+                                            <div class="add">
+                                                <input type="checkbox" id="bread2">
+                                                <label for="bread2">خبز صاج</label>
+                                            </div>
+                                            <span>0</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="notes offset-md-2 col-md-4 col-xs-12">
+                                    <h2>ملاحظات:</h2>
+                                    <textarea name="" id=""  rows="10" placeholder="ملاحظة"></textarea>
+                                </div>
+                                <div class="order  col-md-6 col-xs-12">
+                                    <div class="size">
+                                        <div class="container">
+                                            <div class="row">
+                                                <button class="offset-md-2 col-md-5 col-xs-12" id="smBtn">صغير</button>
+                                                <button class="col-md-5 col-xs-12" id="mdBtn">وسط</button>
+                                                <button class="col-md-12 col-xs-12" id="lgBtn">كبير</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sum">
+                                        <div class="price">
+                                            <h4>المجموع:</h4>
+                                            <span id="finalPrice"></span>
+                                        </div>
+                                        <hr>
+                                        <div class="submit">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="quan offset-md-2 col-md-5 col-xs-12">
+                                                        <button id="minus">-</button>
+                                                        <button id="middle">1</button>
+                                                        <button id="plus">+</button>
+                                                    </div>
+                                                    <div class="click col-md-5 col-xs-12">
+                                                        <button>اضافة</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

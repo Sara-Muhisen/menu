@@ -1,0 +1,114 @@
+body {
+  padding: 10px;
+}
+.meal {
+  background: none;
+  width: fit-content;
+  float: right;
+  border-color: #000;
+  padding: 0;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.meal img {
+  width: 400px;
+}
+.modal-header .close {
+  margin: 0;
+}
+.modal-title {
+  line-height: 2.5;
+}
+.modal-dialog {
+  max-width: 80%;
+}
+.burger {
+  text-align: right;
+  padding: 10px;
+}
+.burger img {
+  max-width: 100%;
+}
+.burger .text {
+  padding-top: 20px;
+}
+.burger .text p {
+  color: #888;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.burger .extra {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.all {
+  margin: 20px 0;
+}
+.add input {
+  margin-left: 30px;
+}
+.chesse,
+.bread1,
+.bread2 {
+  display: flex;
+  justify-content: space-between;
+}
+.extra span {
+  color: #888;
+}
+.price,
+.submit {
+  display: flex;
+  justify-content: space-between;
+}
+.notes textarea {
+  width: 100%;
+}
+.order {
+  padding: 10px;
+}
+.order .size button {
+  background: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.submit button {
+  background: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 2px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.submit .quan {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.submit .quan button {
+  border: none;
+  font-size: 18px;
+}
+.click {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.click button {
+  max-width: 100%;
+  background: none;
+  border: none;
+  font-size: 18px;
+}
